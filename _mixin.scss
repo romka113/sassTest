@@ -1,0 +1,9 @@
+@mixin coolborder($radius,$style){
+  border-radius: $radius;
+  border-style: $style;
+}
+@mixin coolcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
